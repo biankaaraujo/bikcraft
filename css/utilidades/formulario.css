@@ -6,7 +6,7 @@
 
 .form label {
   display: block;
-  font: 600 1rem/1.5 "Poppins", sans-serif;
+  font: 400 1rem/1.5 "Poppins", sans-serif;
   margin-bottom: 4px;
 }
 
@@ -33,6 +33,23 @@
   border-color: var(--cor-p1);
   background: var(--cor-0);
   box-shadow: 0 0 0 2px #fea;
+}
+
+.form .termos {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding: 0px;
+}
+
+input[type="checkbox"] {
+  width: 32px;
+  height: 32px;
+  margin: 0px;
+}
+
+label[for="termos"] a {
+  text-decoration: underline;
 }
 
 @media (max-width: 600px) {
